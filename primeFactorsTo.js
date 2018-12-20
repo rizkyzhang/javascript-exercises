@@ -27,7 +27,7 @@ function isPrime(n, i = 5) {
     
     if (i >= limit) return true; 
     
-    return isPrime(n, i += 2);
+    return isPrime(n, i + 2);
 }
 
 

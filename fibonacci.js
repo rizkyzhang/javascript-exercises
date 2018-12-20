@@ -1,3 +1,7 @@
+// Output fibonacci number until index n
+
+
+
 // Iterative Solution V1 - Forward (O(n))
 
 function fib(n) {
@@ -20,6 +24,25 @@ function fib(n) {
 }
 
 
+
+
+// Iterative Solution V1 Modified - Forward ( O(n) )
+function fib(n) {
+    const arr = [0, 1];
+    const mapper = {};
+    let counter = 0;
+    
+    for (let i = 2; i <= n; i++) {
+        arr[i] = arr[i - 1] + arr[i - 2];
+    }
+    
+     for (let elem in arr) {
+        mapper[counter] = arr[elem];
+        counter++;
+    }
+    
+    return console.log(mapper);
+}
 
 
 
@@ -76,7 +99,7 @@ function fib(n) {
     let a = 0;
     let b = 1;
     let c;
-    let arr = [0, 1]
+    const arr = [0, 1]
     
     for(let i = 2; i <= n; i++) {
         c = a + b;

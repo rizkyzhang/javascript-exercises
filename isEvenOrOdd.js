@@ -1,16 +1,16 @@
 // Using remainder operaror
 
 function isEvenOrOdd(n) {
-    if (!Number.isInteger(n)) return console.log(`${n} is not an integer number`);
+    if (!Number.isInteger(n)) return `${n} is not an integer`;
     
     if (n % 2 === 0) return "even";
-    else return "odd";
+    return "odd";
 }
 
 // Recursive 
 
 function isEvenOrOdd(n) {
-    if (!Number.isInteger(n)) return console.log(`${n} is not an integer number`);
+    if (!Number.isInteger(n)) return `${n} is not an integer`;
     
     if (n === 0) return "even";
     else if (n === 1) return "odd";
@@ -21,17 +21,22 @@ function isEvenOrOdd(n) {
 
 
 function outputEvenNumTo(n) {
-    for (let i = 0; i <= n; i++) {
-        if (isEvenOrOdd(i) === "even") console.log(i);
-    }
-}
+	  const evenNum = [];
 
+    for (let i = 0; i <= n; i++) {
+        if (isEvenOrOdd(i) === "even") evenNum.push(i);
+    }
+    
+    return evenNum;
+}
 
 
 function outputOddNumTo(n) {
+	  const oddNum = [];
+
     for (let i = 0; i <= n; i++) {
-        if (isEvenOrOdd(i) === "odd") console.log(i);
+        if (isEvenOrOdd(i) === "odd") oddNum.push(i);
     }
+    
+    return oddNum;
 }
-
-
