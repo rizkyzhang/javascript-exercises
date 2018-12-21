@@ -41,4 +41,4 @@ function firstNonConsecutive (arr) {
     return (result !== undefined) ? result : null;
 }
 
-console.log(firstNonConsecutive([0,1,2,3]))
+

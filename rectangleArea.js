@@ -10,4 +10,4 @@ function area(d,l) {
     if (!Number.isInteger(A)) return +A.toFixed(2);
 }
 
-console.log(area(12, 5))
+

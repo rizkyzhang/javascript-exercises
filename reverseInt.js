@@ -13,4 +13,4 @@ function reverseInt(int) {
     return reversedInt < 0x7FFFFFFF ? reversedInt * Math.sign(int) : 0;
 }
 
-console.log(reverseInt(1.3));
+

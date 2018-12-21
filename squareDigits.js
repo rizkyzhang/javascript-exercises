@@ -17,4 +17,3 @@ function squareDigits(num){
     return +result;
 }
 
-console.log(squareDigits(1755584));

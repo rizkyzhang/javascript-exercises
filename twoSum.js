@@ -10,7 +10,7 @@ You may assume that each input would have exactly one solution, and you may not 
 // Brute Force (O(n^2)) 
 
 function twoSum(num, target) {
-    let result = [];
+    const result = [];
     
     for (let i = 0; i < num.length; i++) {
         for (let j = i + 1; j < num.length; j++) {
@@ -35,7 +35,7 @@ function twoSum(num, target) {
 
 function twoSum(num, target) {
     const map = {};
-    let results = [];
+    const results = [];
     
     for (let i = 0; i < num.length; i++) {
         if (map[num[i]] !== undefined) {
@@ -54,7 +54,7 @@ function twoSum(num, target) {
 
 function twoSum(arr, target) {
     const map = {};
-    let result = [];
+    const result = [];
     
     for (let i = 0; i < arr.length; i++) {
         if (map[target - arr[i]] !== undefined) {
@@ -80,7 +80,7 @@ function twoSum(arr, target) {
 
 function twoSum(arr, target) {
     const map = {};
-    let result = [];
+    const result = [];
     
     for (let i = 0; i < arr.length; i++) {
         if (map[arr[i]]) {
@@ -93,8 +93,6 @@ function twoSum(arr, target) {
     return result;
 }
 
-
-console.log(twoSum([7, 0, -4, 5, 2, 3], 5));
 
 
 

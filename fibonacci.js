@@ -2,7 +2,7 @@
 
 
 
-// Iterative Solution V1 - Forward (O(n))
+// Iterative Solution V1 - Forward - O(n)
 
 function fib(n) {
     const arr = [0, 1];
@@ -20,13 +20,13 @@ function fib(n) {
         counter++;
     }
     
-    return console.log(mapper);
+    return mapper;
 }
 
 
 
 
-// Iterative Solution V1 Modified - Forward ( O(n) )
+// Iterative Solution V1 Modified - Forward - O(n)
 function fib(n) {
     const arr = [0, 1];
     const mapper = {};
@@ -41,12 +41,12 @@ function fib(n) {
         counter++;
     }
     
-    return console.log(mapper);
+    return mapper;
 }
 
 
 
-// Iterative Solution V1 - Backward (O(n))
+// Iterative Solution V1 - Backward - O(n)
 
 function fib(n) {
     if (n < 2) return console.log(n);
@@ -57,7 +57,7 @@ function fib(n) {
         [a, b] = [b, a + b];
     }
     
-    return console.log(b);
+    return b;
 }
 
 
@@ -85,7 +85,7 @@ function fib(n) {
         b = c;
     }
     
-    return console.log(c);
+    return c;
 }
 
 
@@ -108,7 +108,7 @@ function fib(n) {
         arr.push(c);
     }
     
-    return console.log(arr);
+    return arr;
 }
 
 
@@ -128,7 +128,7 @@ function fib(n) {
         c = a + b;
     }
     
-    return console.log(c);
+    return c;
 }
 
 

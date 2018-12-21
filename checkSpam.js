@@ -1,7 +1,7 @@
 // V1
 
 function checkSpam(str) {
-    return ( str.toLowerCase().includes("xxx") || str.toLowerCase().includes("viagra") );
+    return (str.toLowerCase().includes("xxx") || str.toLowerCase().includes("viagra") );
 }
 
 // V2

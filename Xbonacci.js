@@ -48,4 +48,4 @@ const x = signature.length;
 
 const arraySum = arr => arr.reduce((prev, curr) => prev + curr);
  
-console.log(Xbonacci([1,2,3,4,],10))
+

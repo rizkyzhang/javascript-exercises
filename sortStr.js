@@ -4,19 +4,8 @@ Example string: 'webmaster'
 Expected Output: 'abeemrstw'
 */
 
-
-function sortByAlphabet(a, b) {
-    a = a.toLowerCase();
-    b = b.toLowerCase();
-    
-    if (a < b) return -1;
-    else if (a > b) return 1;
-    
-    return 0;
-}
-
 function sortStr(str) {
-    return str.split("").sort(sortByAlphabet).join("");
+    return str.split("").sort((a, b) => a.localeCompare(b)).join("");
 }
 
-console.log(sortStr("Wednesday"))
+

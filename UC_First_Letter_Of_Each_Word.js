@@ -6,4 +6,4 @@ function capitalizeWord(word) {
 }
 
 
-console.log(capitalizeWord("john lennon"))
+
