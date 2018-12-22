@@ -1,15 +1,24 @@
 // Iterative
 
 function primeFactorsOf(n, minOrMax) {
-	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`
+	  if (!Number.isInteger(n) || n < 0) return `${n} is not a positive integer`
 	  
-    let factors = [];
+    const factors = [];
+    const isEven = n % 2 === 0;
+    const sqrt = Math.sqrt(n);
     
-    for (let i = 2; i <= n; i++) {
-        while (n % i === 0) {
-            factors.push(i);
-            n /= i;
+    let currFactor = isEven ? 2 : 3;
+    let increment = isEven ? 1 : 2;
+    
+    for (currFactor; currFactor <= sqrt ; currFactor += increment) {
+        while (n % currFactor === 0) {
+            factors.push(currFactor);
+            n /= currFactor;
         }
+    }
+    
+    if (n > 2) {
+    	   factors.push(n) // To get the last prime factor
     }
     
     if (minOrMax === "min") return Math.min(...factors);
@@ -17,6 +26,7 @@ function primeFactorsOf(n, minOrMax) {
     
     return factors.join(" * ");
 }
+
 
 
 
@@ -31,7 +41,7 @@ Actually, there's no reason to increment the variable at all, since you never us
 */
 
 function primeFactorsOf(n, factors = [], i = 2) {
-	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`
+	  if (!Number.isInteger(n) || n < 0) return `${n} is not a positive integer`
 	
     if (n === 1) return factors.join(" * ");
     
