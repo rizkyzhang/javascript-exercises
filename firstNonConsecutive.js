@@ -33,10 +33,20 @@ function firstNonConsecutive(arr) {
 
 
 
-// V3 - Best way
+// V3 
 
 function firstNonConsecutive (arr) {
     const result = arr.find((num, i) => num !== i + arr[0]);
+    
+    return (result !== undefined) ? result : null;
+}
+
+
+
+// V4
+
+function firstNonConsecutive (arr) {
+    const result = arr.find((num, i) => num - i !== arr[0]);
     
     return (result !== undefined) ? result : null;
 }

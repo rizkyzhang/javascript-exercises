@@ -6,11 +6,11 @@ Assume we are dealing with an environment which could only store integers within
 function reverseInt(int) {
 	  if (!Number.isInteger(int)) return `${int} is not an integer`;
 	
-    let abs = Math.abs(int);
-    let str = String(abs);
+    const abs = Math.abs(int);
+    const str = String(abs);
     const reversedInt = +(str.split('').reverse().join(''));
     
-    return reversedInt < 0x7FFFFFFF ? reversedInt * Math.sign(int) : 0;
+    return reversedInt < 0x7FFFFFFF ? Math.sign(int) * reversedInt  : 0;
 }
 
 

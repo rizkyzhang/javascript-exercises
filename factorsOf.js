@@ -1,3 +1,5 @@
+// V1
+
 function factorsOf(n) {
     if (n === 1) return 1;
     
@@ -22,5 +24,13 @@ function factorsOf(n) {
     
     return factors.sort((a, b) => a - b);
 }
+
+
+
+
+// V2 
+
+const factorsOf = n => [...Array(n + 1).keys()] 
+                                           .filter(i => n % i === 0)
 
 

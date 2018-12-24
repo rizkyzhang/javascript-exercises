@@ -2,6 +2,7 @@
 
 const getMaxSubSum = arr => {
 	  if (!arr || arr.length === 0) return 0;
+	  else if (arr.length === 1) return arr;
 	
     const temp = {
         start: 0,
@@ -44,15 +45,13 @@ const calcSum = arr => arr.reduce((x, y) => x + y);
 
 const getMaxSub = arr => Math.max(...arr);
 
-const getMaxSubSum = arr => {
+function getMaxSubSum(arr) {
     
     if (!arr || arr.length === 0) return 0;
+    else if (arr.length === 1) return arr;
     
-    if ( isAllPositives(arr) ) {
-        return console.log( calcSum(arr) );
-    } else if ( isAllNegatives(arr) ) {
-        return console.log( getMaxSub(arr) );
-    }
+    if (isAllPositives(arr)) return calcSum(arr);
+    else if (isAllNegatives(arr)) return getMaxSub(arr);
     
     const temp = {
         start: 0,
