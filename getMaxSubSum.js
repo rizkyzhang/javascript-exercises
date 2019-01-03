@@ -41,16 +41,16 @@ const isAllPositives = arr => arr.every(n => n > 0);
 
 const isAllNegatives = arr => arr.every(n => n < 0);
 
-const calcSum = arr => arr.reduce((x, y) => x + y);
+const sum = arr => arr.reduce((prev, curr) => prev + curr, 0);
 
 const getMaxSub = arr => Math.max(...arr);
 
 function getMaxSubSum(arr) {
     
-    if (!arr || arr.length === 0) return 0;
+    if (!Array.isArray(arr) || !arr.length) return null;
     else if (arr.length === 1) return arr;
     
-    if (isAllPositives(arr)) return calcSum(arr);
+    if (isAllPositives(arr)) return sum(arr);
     else if (isAllNegatives(arr)) return getMaxSub(arr);
     
     const temp = {

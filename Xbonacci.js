@@ -28,6 +28,7 @@ How it works:
 */
 
 
+const sum = arr => arr.reduce((prev, curr) => prev + curr, 0);
 
 function Xbonacci(signature, n) {
 if (!Array.isArray(signature) || !signature.length) return null;    
@@ -37,15 +38,13 @@ const result = [...signature];
 const x = signature.length;
    
     for (let i = x; i < n; i++) {
-        const prevSum = arraySum(result.slice(i - x, i));
+        const prevSum = sum(result.slice(i - x, i));
         
         result.push(prevSum);
-        
     }
     
     return result.slice(0, n);
 };
 
-const arraySum = arr => arr.reduce((prev, curr) => prev + curr);
  
 
