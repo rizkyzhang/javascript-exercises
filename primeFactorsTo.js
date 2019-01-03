@@ -1,6 +1,8 @@
 // Iterative O(sqrt(n))
 
 function isPrime(n) {
+	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`;
+	
     if (n < 2) return false;
     else if (n <= 3) return true;
     else if (n % 2 === 0) return false;
@@ -17,6 +19,8 @@ function isPrime(n) {
 // Recursive
 
 function isPrime(n, i = 3) {
+	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`;
+	
     if (n < 2) return false;
     else if (n <= 3) return true;
     else if (n % 2 === 0) return false;
@@ -30,6 +34,8 @@ function isPrime(n, i = 3) {
     return isPrime(n, i + 2);
 }
 
+
+// Output
 
 function primeFactorsTo(n) {
 	  const prime = [];
