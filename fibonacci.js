@@ -109,9 +109,7 @@ const fib = n => (n < 2) ? n : fib(n - 1) + fib(n - 2);
 (n = 1000 => 4.7ms)
 */
 
-function fib(n, memo) {
-    memo = memo || {};
- 
+function fib(n, memo = {}) {
     if (memo[n]) return memo[n];
     
     if (n < 2) return n;
