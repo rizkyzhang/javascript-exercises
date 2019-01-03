@@ -1,7 +1,7 @@
 // Iterative O(sqrt(n))
 
 function isPrime(n) {
-	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`;
+	  if (!Number.isInteger(n) || n < 0) return `${n} is not a positive integer`;
 	
     if (n < 2) return false;
     else if (n <= 3) return true;
@@ -19,7 +19,7 @@ function isPrime(n) {
 // Recursive
 
 function isPrime(n, i = 3) {
-	  if (!Number.isInteger(n) && n < 0) return `${n} is not a positive integer`;
+	  if (!Number.isInteger(n) || n < 0) return `${n} is not a positive integer`;
 	
     if (n < 2) return false;
     else if (n <= 3) return true;
