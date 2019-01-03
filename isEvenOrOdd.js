@@ -20,15 +20,15 @@ function isEvenOrOdd(n) {
 
 // Using bitwise operator
 
-const isEvenOrOdd = n => (n & 1) ? "odd" : "even";
+const isEvenOrOdds = n => (n & 1) ? "odd" : "even";
 
 // Output
 
 function outputEvenNumTo(n) {
 	  const evenNum = [];
 
-    for (let i = 0; i <= n; i++) {
-        if (isEvenOrOdd(i) === "even") evenNum.push(i);
+    for (let i = 0; i <= n; i += 2) {
+        evenNum.push(i);
     }
     
     return evenNum;
@@ -38,9 +38,10 @@ function outputEvenNumTo(n) {
 function outputOddNumTo(n) {
 	  const oddNum = [];
 
-    for (let i = 0; i <= n; i++) {
-        if (isEvenOrOdd(i) === "odd") oddNum.push(i);
+    for (let i = 1; i <= n; i += 2) {
+        oddNum.push(i);
     }
     
     return oddNum;
 }
+
