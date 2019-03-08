@@ -25,7 +25,7 @@ function primeFactorsTo(n) {
 
 function isPrime(n) {
   if (!Number.isInteger(n) || n < 2) return false;
-  if (n <= 3) return true; // If n is 2 or 3, return true
+  if (n <= 3) return true;
   if (n % 2 === 0) return false;
 
   const sqrt = Math.sqrt(n);
