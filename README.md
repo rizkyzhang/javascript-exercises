@@ -1,3 +1,7 @@
-This repository contains a bunch of JavaScript algorithms challenges that I have solved.
+<h1 align="center">JavaScript Algorithms Challenges</h1>
 
-I am going to update this repository everytime I solve an algorithm challenge.
+<h6 align="center">
+  Solutions for
+  <a href="https://www.codewars.com">Codewars</a>, <a href="https://www.w3resource.com/javascript-exercises/">w3resource</a>, 
+  and <a href="https://leetcode.com">Leetcode</a>.
+</h6>
