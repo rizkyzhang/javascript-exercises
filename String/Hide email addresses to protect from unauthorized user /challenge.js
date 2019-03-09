@@ -11,8 +11,3 @@
   Link:
     https://www.w3resource.com/javascript-exercises/javascript-string-exercise-6.php
 */
-
-function protectEmail(email) {
-  const [x, y] = email.split("@");
-  return `${x.slice(0, 3)}...@${y}`;
-}

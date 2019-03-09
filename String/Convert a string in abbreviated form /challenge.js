@@ -11,10 +11,3 @@
   Link:
     https://www.w3resource.com/javascript-exercises/javascript-string-exercise-5.php
 */
-
-function abbrevName(string) {
-  return string
-    .split(" ")
-    .map((name, index) => (index === 0 ? name : name[0].toUpperCase()))
-    .join(".");
-}
