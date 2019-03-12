@@ -1,4 +1,4 @@
-function primeFactorsTo(n) {
+function getPrimeNumsTo(n) {
   const result = [];
 
   for (let i = 2; i <= n; i++) {
