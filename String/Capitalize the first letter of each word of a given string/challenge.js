@@ -3,7 +3,7 @@
     Capitalize the first letter of each word of a given string
 
   Description:
-    Write a JavaScript program to capitalize the first letter of each word of a given string.
+    Create a JavaScript program to capitalize the first letter of each word of a given string.
 
   Examples:
     console.log(capitalizeWord("This is cool")); // -> "This Is Cool"

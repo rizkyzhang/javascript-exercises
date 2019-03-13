@@ -2,19 +2,11 @@
 
 function fib(n) {
   const arr = [0, 1];
-  const mapper = {};
-  let counter = 0;
 
   for (let i = 2; i <= n; i++) {
     arr[i] = arr[i - 1] + arr[i - 2];
   }
-
-  for (const elem in arr) {
-    mapper[counter] = arr[elem];
-    counter++;
-  }
-
-  return mapper;
+  return arr;
 }
 
 // Iterative solution V2 - Forward  - O(n)

@@ -3,7 +3,7 @@
     Check whether a number is even or not
 
   Description:
-    Write a JavaScript program to check whether a number is even or not.
+    Create a JavaScript program to check whether a number is even or not.
 
   Examples:
     console.log(isEvenOrOdd(8)); // -> "even"

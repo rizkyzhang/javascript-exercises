@@ -1,35 +1,18 @@
-// Best way
+// Long solution
 
 function outputTriangle(n) {
-	for (let line = "#"; line.length <= n; line += "#") {
-		console.log(line);
-	}
+  let triangle = "#";
+
+  for (let i = 1; i <= n; i++) {
+    console.log(triangle);
+    triangle += "#";
+  }
 }
 
-// Not really a effective way 
+// Short solution
 
 function outputTriangle(n) {
-	let triangle = "#"
-	
-	for (let i = 1; i <= n; i++) {
-		console.log(triangle);
-		triangle += "#";
-	}
+  for (let line = "#"; line.length <= n; line += "#") {
+    console.log(line);
+  }
 }
-
-// V3
-
-function outputTriangle(n) {
-    let result = "#";
-    
-    while (n) {
-        console.log(result);
-        result += "#";
-        n--;
-    }
-}
-
-
-
-
-

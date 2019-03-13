@@ -3,7 +3,7 @@
     Hide email addresses to protect from unauthorized user
 
   Description:
-    Write a JavaScript function to hide email addresses to protect from unauthorized user.
+    Create a JavaScript function to hide email addresses to protect from unauthorized user.
 
   Example:
     console.log(protect_email("robin_singh@example.com")); // -> "robin...@example.com"
