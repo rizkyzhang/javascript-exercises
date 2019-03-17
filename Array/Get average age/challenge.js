@@ -7,15 +7,15 @@
     The formula for the average is (age1 + age2 + ... + ageN) / N.
 
   Examples:
-    let john = { name: "John", age: 25 };
-    let pete = { name: "Pete", age: 30 };
-    let mary = { name: "Mary", age: 29 };
+    const john = { name: "John", age: 25 };
+    const pete = { name: "Pete", age: 30 };
+    const mary = { name: "Mary", age: 29 };
 
-    let users = [ john, pete, mary ];
+    const users = [ john, pete, mary ];
 
     alert( getAverageAge(users) ); // (25 + 30 + 29) / 3 = 28
 
   Link:
     https://javascript.info/task/average-age
-  */
+*/
 
