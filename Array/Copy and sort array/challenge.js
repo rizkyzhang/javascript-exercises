@@ -7,12 +7,12 @@
     Create a function copySorted(arr) that returns such a copy.
 
   Examples:
-    let arr = ["HTML", "JavaScript", "CSS"];
+    const arr = ["HTML", "JavaScript", "CSS"];
 
-    let sorted = copySorted(arr);
+    const sorted = copySorted(arr);
 
-    alert( sorted ); // CSS, HTML, JavaScript
-    alert( arr ); // HTML, JavaScript, CSS (no changes)
+    alert(sorted); // CSS, HTML, JavaScript
+    alert(arr); // HTML, JavaScript, CSS (no changes)
 
   Link:
     http://javascript.info/task/copy-sort-array
