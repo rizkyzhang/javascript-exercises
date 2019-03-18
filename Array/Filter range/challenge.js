@@ -7,13 +7,13 @@
     The function should not modify the array. It should return the new array.
 
   Examples:
-    let arr = [5, 3, 8, 1];
+    const arr = [5, 3, 8, 1];
 
-    let filtered = filterRange(arr, 1, 4);
+    const filtered = filterRange(arr, 1, 4);
 
-    alert( filtered ); // 3,1 (matching values)
+    alert(filtered); // 3,1 (matching values)
 
-    alert( arr ); // 5,3,8,1 (not modified)
+    alert(arr); // 5,3,8,1 (not modified)
 
   Link:
     http://javascript.info/task/filter-range
