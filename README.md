@@ -9,3 +9,5 @@ All of this challenges came from:
 - <a href="https://leetcode.com/">Leetcode</a>
 - <a href="https://www.w3resource.com/javascript-exercises/">w3resource</a>
 - Other resources
+
+Note: My solution might be different from the official solution of a challenge, my solution is not by any means the best solution, just remember there is many ways to solve a problem.
