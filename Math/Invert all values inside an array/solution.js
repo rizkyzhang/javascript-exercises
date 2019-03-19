@@ -2,6 +2,6 @@
 
 const invert = arr => arr.map(num => (num === 0 ? num : -num));
 
-// V2 - Best way
+// V2
 
 const invert = arr => arr.map(num => 0 - num);
