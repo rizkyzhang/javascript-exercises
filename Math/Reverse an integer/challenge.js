@@ -9,7 +9,7 @@
 
   Examples:
     Input: -123
-	Output: -321
+	  Output: -321
 
   Link:
     https://leetcode.com/problems/reverse-integer/description/
