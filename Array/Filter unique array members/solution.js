@@ -17,3 +17,7 @@ function filterUnique(arr) {
 function filterUnique(arr) {
   return arr.filter((elem, index) => arr.indexOf(elem) === index);
 }
+
+// V3
+
+const filterUnique = arr => Array.from(new Set(arr));
