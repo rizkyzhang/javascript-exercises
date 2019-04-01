@@ -12,7 +12,7 @@ function sumTo(n) {
 
 // Solution 2 (Recursion)
 
-const sumTo = n => (n === 1 ? n : n + sumTo(n - 1));
+const sumTo = n => (n === 1 ? 1 : n + sumTo(n - 1));
 
 // Solution 3 (Arithmetic Progression Formula)
 
