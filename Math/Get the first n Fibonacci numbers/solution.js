@@ -1,11 +1,14 @@
 // Iterative Solution V1 - Forward - O(n)
 
 function fib(n) {
+  if (n < 2) return n;
+  
   const arr = [0, 1];
 
   for (let i = 2; i <= n; i++) {
     arr[i] = arr[i - 1] + arr[i - 2];
   }
+
   return arr;
 }
 
@@ -19,6 +22,8 @@ fibbonacci(n-2) three times, etc.
 */
 
 function fib(n) {
+  if (n < 2) return n;
+
   let a = 0;
   let b = 1;
   let c;
@@ -39,7 +44,7 @@ function fib(n) {
 function fib(n) {
   if (n < 2) return n;
 
-  let [a, b] = [0, 1];
+  const [a, b] = [0, 1];
 
   while (n-- > 1) {
     [a, b] = [b, a + b];
@@ -51,6 +56,8 @@ function fib(n) {
 // Iterative solution V4 - Backward - O(n)
 
 function fib(n) {
+  if (n < 2) return n;
+
   let a;
   let b = 0;
   let c = 1;
@@ -84,13 +91,8 @@ const fib = n => (n < 2 ? n : fib(n - 1) + fib(n - 2));
 */
 
 function fib(n, memo = {}) {
-  if (memo[n]) return memo[n];
-
   if (n < 2) return n;
+  if (memo[n]) return memo[n];
 
   return (memo[n] = fib(n - 1, memo) + fib(n - 2, memo));
 }
-
-// ES6 Tail Call optimization
-
-const fib = (n, a = 1, b = 0) => (n === 0 ? b : fib(n - 1, a + b, a));
