@@ -20,4 +20,4 @@ function filterUnique(arr) {
 
 // V3
 
-const filterUnique = arr => Array.from(new Set(arr));
+const filterUnique = arr => [...new Set(arr)];
