@@ -5,5 +5,3 @@ const pete = {name: "Pete", age: 30};
 const mary = {name: "Mary", age: 28};
 
 const arr = [john, pete, mary];
-
-sortByAge(arr);
