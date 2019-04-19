@@ -1,7 +1,7 @@
 // Solution 1
 
 function double(arr) {
-  const result = arr;
+  const result = [...arr];
 
   for (let i = 0; i < arr.length; i++) {
     result.push(arr[i]);
@@ -13,7 +13,7 @@ function double(arr) {
 // Solution 2
 
 function double(arr) {
-  const result = arr;
+  const result = [...arr];
 
   arr.forEach(elem => result.push(elem));
 
