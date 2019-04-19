@@ -3,9 +3,9 @@
 function filterUnique(arr) {
   const result = [];
 
-  for (let str of arr) {
-    if (!result.includes(str)) {
-      result.push(str);
+  for (let elem of arr) {
+    if (!result.includes(elem)) {
+      result.push(elem);
     }
   }
 
