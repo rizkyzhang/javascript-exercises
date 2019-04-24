@@ -18,4 +18,3 @@
   Link:
     https://javascript.info/task/average-age
 */
-
