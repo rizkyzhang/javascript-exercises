@@ -13,7 +13,7 @@
 
     const users = [ john, pete, mary ];
 
-    alert( getAverageAge(users) ); // (25 + 30 + 29) / 3 = 28
+    console.log(getAverageAge(users)); // -> (25 + 30 + 29) / 3 = 28
 
   Link:
     https://javascript.info/task/average-age
