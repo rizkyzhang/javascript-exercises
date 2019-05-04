@@ -15,7 +15,7 @@
     "Krishna", "Krishna", "Hare", "Hare", ":-O"
     ];
 
-    alert(filterUnique(strings)); // Hare, Krishna, :-O
+    console.log(filterUnique(strings)); // -> ["Hare", "Krishna", ":-O"]
 
   Link:
     http://javascript.info/task/array-unique
