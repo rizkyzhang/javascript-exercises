@@ -7,5 +7,5 @@
     You could call it like so: double(myArray) or myArray.double().
 
   Example:
-    Given [1,2,3,4,5], your function should return [1,2,3,4,5,1,2,3,4,5].
+    console.log(double([1,2,3,4,5])); // -> [1,2,3,4,5,1,2,3,4,5]
 */

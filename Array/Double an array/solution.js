@@ -12,7 +12,7 @@ function double(arr) {
 
 // Solution 2
 
-function double2(arr) {
+function double(arr) {
   const result = [...arr];
 
   arr.forEach(elem => result.push(elem));
@@ -22,8 +22,8 @@ function double2(arr) {
 
 // Solution 3
 
-const double3 = arr => arr.concat(arr);
+const double = arr => arr.concat(arr);
 
 // Solution 4
 
-const double4 = arr => [...arr, ...arr];
+const double = arr => [...arr, ...arr];
