@@ -14,7 +14,7 @@
 
     const names = // ... your code //
   
-    alert(names); // John, Pete, Mary
+    console.log(names); // -> ["John", "Pete", "Mary"]
 
   Link:
     http://javascript.info/task/array-get-names
