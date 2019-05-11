@@ -6,5 +6,5 @@
     Create a function to reverse a given string
 
   Example:
-    console.log("cool"); // => "looc"
+    console.log("cool"); // => looc
 */

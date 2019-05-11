@@ -16,7 +16,7 @@ function swapCase(str) {
 
 // Solution 2
 
-function swapCase2(str) {
+function swapCase(str) {
   let result = "";
 
   for (const letter of str) {
@@ -31,7 +31,7 @@ function swapCase2(str) {
 
 // Solution 3
 
-function swapCase3(str) {
+function swapCase(str) {
   return str
     .split("")
     .map(letter => {
