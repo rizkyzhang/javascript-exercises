@@ -5,7 +5,7 @@ function convertHtmlEntities(str) {
     ">": "&gt;",
     '"': "&quot;",
     "'": "&apos;"
-  }
+  };
 
   return [...str].map(char => htmlEntities[char] || char).join("");
 }

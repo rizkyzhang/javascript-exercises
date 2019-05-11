@@ -1,18 +1,18 @@
 // Solution 1
 
-function getLongestWord(str) {
-  if (typeof str !== "string") return `${str} is not a string`;
-
-  const words = str.split(" ");
+function getLongestWord(sentence) {
+  if (typeof sentence !== "string") return null;
+  
+  const words = sentence.split(" ");
   let longestWordLen = 0;
   let longestWord = "";
 
   if (words.length === 1) return words[0];
 
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].length > longestWordLen) {
-      longestWordLen = words[i].length;
-      longestWord = words[i];
+  for (let word of words) {
+    if (word.length > longestWordLen) {
+      longestWordLen = word.length;
+      longestWord = word;
     }
   }
 
@@ -21,10 +21,10 @@ function getLongestWord(str) {
 
 // Solution 2
 
-function getLongestWord2(str) {
-  if (typeof str !== "string") return `${str} is not a string`;
+function getLongestWord(sentence) {
+  if (typeof sentence !== "string") return null;
 
-  const words = str.split(" ");
+  const words = sentence.split(" ");
 
   if (words.length === 1) return words[0];
 
