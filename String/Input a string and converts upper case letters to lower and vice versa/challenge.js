@@ -7,7 +7,7 @@
     and converts upper case letters to lower case, and lower case letters to upper case.
 
   Example:
-    console.log(swapCase('AaBbc')) // -> "aAbBC"
+    console.log(swapCase("AaBbc")) // -> aAbBC
 
   Link:
     https://www.w3resource.com/javascript-exercises/javascript-string-exercise-10.php
