@@ -1,9 +1,13 @@
 // Solution 1
 
 function flatten(arr, result = []) {
-  arr.forEach(elem => {
-    Array.isArray(elem) ? flatten(elem, result) : result.push(elem);
-  });
+  for (let elem of arr) {
+    if (Array.isArray(elem)) {
+      result.push(...flatten(elem));
+    } else {
+      result.push(elem);
+    }
+  }
 
   return result;
 }
