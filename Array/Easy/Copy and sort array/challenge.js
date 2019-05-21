@@ -11,8 +11,11 @@
 
     const sorted = copySorted(arr);
 
-    console.log(sorted); // -> ["CSS", "HTML", "JavaScript"]
-    console.log(arr); // -> ["HTML", "JavaScript", "CSS"] (no changes)
+    console.log(sorted); 
+    // -> ["CSS", "HTML", "JavaScript"]
+    
+    console.log(arr); 
+    // -> ["HTML", "JavaScript", "CSS"] (no changes)
 
   Link:
     http://javascript.info/task/copy-sort-array

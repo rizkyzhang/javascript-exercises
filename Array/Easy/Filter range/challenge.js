@@ -11,9 +11,11 @@
 
     const filtered = filterRange(arr, 1, 4);
 
-    console.log(filtered); // -> [3, 1] (matching values)
+    console.log(filtered); 
+    // -> [3, 1] (matching values)
 
-    console.log(arr); // -> [5, 3, 8, 1] (not modified)
+    console.log(arr); 
+    // -> [5, 3, 8, 1] (not modified)
 
   Link:
     http://javascript.info/task/filter-range
