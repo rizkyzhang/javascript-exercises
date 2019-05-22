@@ -9,9 +9,14 @@
     Note: You can return the array with its elements in any order.
 
   Example:
-    console.log(getDiffBetweenArrays([1, 2, 3, 5], [1, 2, 3, 4, 5, 6])); // -> [4, 6]
-    console.log(getDiffBetweenArrays([1, 2, 3], [1, 2, 3])); // -> []
-    console.log(getDiffBetweenArrays(["John", "Bonny"], ["John", "Bonny", "Frank"])); // -> ["Frank"]
+    console.log(getDiffBetweenArrays([1, 2, 3, 5], [1, 2, 3, 4, 5, 6])); 
+    // -> [4, 6]
+
+    console.log(getDiffBetweenArrays([1, 2, 3], [1, 2, 3])); 
+    // -> []
+
+    console.log(getDiffBetweenArrays(["John", "Bonny"], ["John", "Bonny", "Frank"])); 
+    // -> ["Frank"]
 
   Link:
     https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays
