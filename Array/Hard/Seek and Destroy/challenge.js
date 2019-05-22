@@ -9,9 +9,14 @@
     Note: "arguments" object might be useful here
 
   Examples:
-    console.log(seekAndDestroy([1, 2, 3, 4], 2, 3)); // -> [1, 4]
-    console.log(seekAndDestroy([1, 4, 5]), 1, 4, 5); // -> []
-    console.log(seekAndDestroy(["John", "Andy", "Billy"], "Billy")); // -> ["John", "Andy"]
+    console.log(seekAndDestroy([1, 2, 3, 4], 2, 3)); 
+    // -> [1, 4]
+
+    console.log(seekAndDestroy([1, 4, 5]), 1, 4, 5); 
+    // -> []
+
+    console.log(seekAndDestroy(["John", "Andy", "Billy"], "Billy")); 
+    // -> ["John", "Andy"]
 
   Link:
     https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy

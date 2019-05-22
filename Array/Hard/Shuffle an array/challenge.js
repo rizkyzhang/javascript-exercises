@@ -12,13 +12,16 @@
     const arr = [1, 2, 3];
 
     shuffleArray(arr);
-    console.log(arr); // -> [3, 2, 1]
+    console.log(arr); 
+    // -> [3, 2, 1]
 
     shuffleArray(arr);
-    console.log(arr); // -> [2, 1, 3]
+    console.log(arr); 
+    // -> [2, 1, 3]
 
     shuffleArray(arr);
-    console.log(arr); // -> [3, 1, 2]
+    console.log(arr); 
+    // -> [3, 1, 2]
 
   Link:
     http://javascript.info/task/shuffle
