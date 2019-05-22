@@ -12,10 +12,14 @@
 
     const arr = [john, pete, mary];
 
-    sortByName(arr); // -> now: [john, mary, pete]
+    sortByName(arr); 
+    // -> now: [john, mary, pete]
 
-    console.log(arr[0].name); // -> John
-    console.log(arr[2].name); // -> Pete
+    console.log(arr[0].name); 
+    // -> John
+
+    console.log(arr[2].name); 
+    // -> Pete
 
   Link:
     http://javascript.info/task/sort-objects
