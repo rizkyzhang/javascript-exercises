@@ -1,9 +1,10 @@
 function chunkArrayInGroups(arr, size) {
   const result = [];
-  let index = 0;
+  const totalOfElements = arr.length;
+  let sliceIndex = 0;
 
-  while (index < arr.length) {
-    result.push(arr.slice(index, (index += size)));
+  while (sliceIndex < totalOfElements) {
+    result.push(arr.slice(sliceIndex, sliceIndex += size));
   }
 
   return result;
