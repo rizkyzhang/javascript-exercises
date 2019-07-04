@@ -3,7 +3,7 @@
 function filterUnique(arr) {
   const result = [];
 
-  for (let elem of arr) {
+  for (const elem of arr) {
     if (!result.includes(elem)) {
       result.push(elem);
     }
