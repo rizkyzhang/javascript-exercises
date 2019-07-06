@@ -8,8 +8,9 @@ function getDiffBetweenArrays(arr1, arr2) {
 
 // Solution 2
 
-function getDiffBetweenArrays2(arr1, arr2) {
-  const filtered = (arr1, arr2) => arr1.filter(elem => arr2.indexOf(elem) === -1);
+function getDiffBetweenArrays(arr1, arr2) {
+  const uniqueElemInArr1 = arr1.filter(elem => !arr2.includes(elem));
+  const uniqueElemInArr2 = arr2.filter(elem => !arr1.includes(elem));
   
-  return [...filtered(arr1, arr2), ...filtered(arr2, arr1)];
+  return [...uniqueElemInArr1, ...uniqueElemInArr2];
 }
