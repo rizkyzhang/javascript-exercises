@@ -1,3 +1,5 @@
+// Solution 1
+
 function hasSpaces(str) {
   for (let char of str) {
     if (char === " ") {
@@ -7,3 +9,7 @@ function hasSpaces(str) {
 
   return false;
 }
+
+// Solution 2
+
+const hasSpaces = str => str.includes(" ");
