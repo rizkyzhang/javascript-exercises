@@ -4,7 +4,7 @@
 
   Description:
     You have an array of user objects, each one has name, surname and id.
-    Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.    
+    Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname. 
 
   Examples:
     const john = {name: "John", surname: "Smith", id: 1};
@@ -21,10 +21,10 @@
       {fullName: "Mary Key", id: 3}
     ]
 
-    console.log(usersMapped[0].id) 
+    console.log(usersMapped[0].id); 
     // -> 1
 
-    console.log(usersMapped[0].fullName) 
+    console.log(usersMapped[0].fullName); 
     // -> John Smith
 
   Link:
