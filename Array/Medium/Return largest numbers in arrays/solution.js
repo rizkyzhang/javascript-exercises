@@ -3,7 +3,7 @@
 function largestOfFour(arrays) {
   const result = [];
 
-  for (let array of arrays) {
+  for (const array of arrays) {
     result.push(Math.max(...array));
   }
 
