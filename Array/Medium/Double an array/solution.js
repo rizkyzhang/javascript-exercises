@@ -1,10 +1,10 @@
 // Solution 1
 
-function double(arr) {
-  const result = [...arr];
+function double(array) {
+  const result = [...array];
 
-  for (let i = 0; i < arr.length; i++) {
-    result.push(arr[i]);
+  for (let i = 0; i < array.length; i++) {
+    result.push(array[i]);
   }
 
   return result;
@@ -12,18 +12,18 @@ function double(arr) {
 
 // Solution 2
 
-function double(arr) {
-  const result = [...arr];
+function double(array) {
+  const result = [...array];
 
-  arr.forEach(elem => result.push(elem));
+  array.forEach(element => result.push(element));
 
   return result;
 }
 
 // Solution 3
 
-const double = arr => arr.concat(arr);
+const double = array => array.concat(array);
 
 // Solution 4
 
-const double = arr => [...arr, ...arr];
+const double = array => [...array, ...array];
