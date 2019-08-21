@@ -1,16 +1,16 @@
 // Solution 1
 
-function getDiffBetweenArrays(arr1, arr2) {
-  return arr1
-    .concat(arr2)
-    .filter((elem) => !arr1.includes(elem) || !arr2.includes(elem)); 
+function getDiffBetweenArrays(array1, array2) {
+  return array1
+    .concat(array2)
+    .filter((element) => !array1.includes(element) || !array2.includes(element)); 
 }
 
 // Solution 2
 
-function getDiffBetweenArrays(arr1, arr2) {
-  const uniqueElemInArr1 = arr1.filter(elem => !arr2.includes(elem));
-  const uniqueElemInArr2 = arr2.filter(elem => !arr1.includes(elem));
+function getDiffBetweenArrays(array1, array2) {
+  const uniqueElementInArray1 = array1.filter(element => !array2.includes(element));
+  const uniqueElementInArray2 = array2.filter(element => !array1.includes(element));
   
-  return [...uniqueElemInArr1, ...uniqueElemInArr2];
+  return [...uniqueElementInArray1, ...uniqueElementInArray2];
 }
