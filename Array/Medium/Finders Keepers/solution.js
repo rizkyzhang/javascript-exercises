@@ -1,9 +1,9 @@
-function getTruthyElement(array, function) {
-  for (let element of array) {
-    if (function(element)) {
+function getTruthyElement(array, func) {
+  for (const element of array) {
+    if (func(element)) {
       return element;
     }
   }
 
   return undefined;
-} 
+}
