@@ -3,8 +3,8 @@
     Filter unique array elements
 
   Description:
-    Create a function filterUniqueElements(array) that should return an array with unique items of arr.
-
+    Create a function filterUniqueElements(array) that should return an array with unique elements.
+    
   Example:
     function filterUniqueElements(array) {
       // your code //
