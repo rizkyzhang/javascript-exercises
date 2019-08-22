@@ -3,7 +3,7 @@
     Get average age
 
   Description:
-    Write the function getAverageAge(users) that gets an array of objects with    property age and gets the average.
+    Write the function getAverageAge(users) that gets an array of objects with property age and gets the average.
     The formula for the average is (age1 + age2 + ... + ageN) / N.
 
   Examples:
