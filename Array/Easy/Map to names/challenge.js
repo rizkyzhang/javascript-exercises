@@ -3,7 +3,8 @@
     Map to names
 
   Description:
-    You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
+    You have an array of user objects, each one has user.name.
+    Write the code that converts it into an array of names.
   
   Examples:
     const john = {name: "John", age: 25};
