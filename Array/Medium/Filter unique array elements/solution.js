@@ -1,15 +1,15 @@
 // Solution 1
 
 function filterUniqueElements(array) {
-  const result = [];
+  const filteredArray = [];
 
   for (const element of array) {
-    if (!result.includes(element)) {
-      result.push(element);
+    if (!filteredArray.includes(element)) {
+      filteredArray.push(element);
     }
   }
 
-  return result;
+  return filteredArray;
 }
 
 // Solution 2
