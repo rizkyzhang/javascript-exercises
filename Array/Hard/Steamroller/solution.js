@@ -1,11 +1,11 @@
 // Solution 1
 
-function flatten(arr, result = []) {
-  for (let elem of arr) {
-    if (Array.isArray(elem)) {
-      result.push(...flatten(elem));
+function flatten(array, result = []) {
+  for (let element of array) {
+    if (Array.isArray(element)) {
+      result.push(...flatten(element));
     } else {
-      result.push(elem);
+      result.push(element);
     }
   }
 
@@ -14,25 +14,24 @@ function flatten(arr, result = []) {
 
 // Solution 2
 
-function flatten(arr) {
-  return Array.isArray(arr)
-    ? [].concat(...arr.map(flatten))
-    : arr;
+function flatten(array) {
+  return Array.isArray(array) ? [].concat(...array.map(flatten)) : array;
 }
 
 // Solution 3
 
-function flatten(arr) {
-  return arr
-    .reduce((acc, elem) => acc.concat(Array.isArray(elem) 
-                            ? flatten(elem) 
-                            : elem), [])
+function flatten(array) {
+  return array.reduce(
+    (accumulator, element) =>
+      accumulator.concat(Array.isArray(element) ? flatten(element) : element),
+    []
+  );
 }
 
 // Solution 4 (Only work for array of numbers)
 
-function flatten(arr) {
-  return arr
+function flatten(array) {
+  return array
     .join()
     .split(",")
     .map(Number);
@@ -40,4 +39,4 @@ function flatten(arr) {
 
 // Solution 5
 
-const flatten = arr => arr.flat(Infinity);
+const flatten = array => array.flat(Infinity);
