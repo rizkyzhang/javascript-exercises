@@ -1,18 +1,18 @@
 // Solution 1
 
-function seekAndDestroy(arr) {
-  const initialArr = arguments[0];
-  const elemToDestroy = [];
-  
+function seekAndDestroy(array) {
+  const initialArray = arguments[0];
+  const elementsToDestroy = [];
+
   for (let i = 1; i < arguments.length; i++) {
-    elemToDestroy.push(arguments[i]);
+    elementsToDestroy.push(arguments[i]);
   }
 
-  return initialArr.filter(elem => !elemToDestroy.includes(elem));
+  return initialArray.filter(element => !elementsToDestroy.includes(element));
 }
 
 // Solution 2
 
-function seekAndDestroy(arr, ...elemToDestroy) {
-  return arr.filter(elem => !elemToDestroy.includes(elem));
+function seekAndDestroy(array, ...elementToDestroy) {
+  return array.filter(element => !elementToDestroy.includes(element));
 }
