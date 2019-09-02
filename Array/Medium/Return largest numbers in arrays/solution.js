@@ -1,6 +1,6 @@
 // Solution 1
 
-function largestOfFour(arrays) {
+function getLargestNumberInArray(arrays) {
   const result = [];
 
   for (const array of arrays) {
@@ -12,6 +12,6 @@ function largestOfFour(arrays) {
 
 // Solution 2
 
-function largestOfFour(arrays) {
+function getLargestNumberInArray(arrays) {
   return arrays.map(array => Math.max(...array));
 }
