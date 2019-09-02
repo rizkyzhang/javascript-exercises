@@ -3,7 +3,8 @@
     Steamroller
   
   Description:
-    Flatten a nested array. You must account for varying levels of nesting.
+    Flatten a nested array. 
+    You must account for varying levels of nesting.
     
   Examples:
     console.log(flatten([[["a"]], [["b"]]])); 
