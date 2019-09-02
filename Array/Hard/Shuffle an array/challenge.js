@@ -9,18 +9,18 @@
     For instance, [1,2,3] can be reordered as [1,2,3] or [1,3,2] or [3,1,2] etc, with equal probability of each case.
 
   Examples:
-    const arr = [1, 2, 3];
+    const array = [1, 2, 3];
 
-    shuffleArray(arr);
-    console.log(arr); 
+    shuffle(array);
+    console.log(array); 
     // -> [3, 2, 1]
 
-    shuffleArray(arr);
-    console.log(arr); 
+    shuffle(array);
+    console.log(array); 
     // -> [2, 1, 3]
 
-    shuffleArray(arr);
-    console.log(arr); 
+    shuffle(array);
+    console.log(array); 
     // -> [3, 1, 2]
 
   Link:
