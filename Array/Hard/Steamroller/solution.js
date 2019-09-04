@@ -1,7 +1,7 @@
 // Solution 1
 
 function flatten(array, result = []) {
-  for (let element of array) {
+  for (const element of array) {
     if (Array.isArray(element)) {
       result.push(...flatten(element));
     } else {
