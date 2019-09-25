@@ -1,3 +1,3 @@
-function confirmEnding(string, ending) {
-  return string.slice(string.length - ending.length) === ending;
+function confirmEnding(str, ending) {
+  return str.slice(str.length - ending.length) === ending;
 }
