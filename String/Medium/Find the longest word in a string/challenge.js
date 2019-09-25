@@ -7,5 +7,7 @@
     Bonus 1: Create an if statement that check if input is a string or not, if not return null.
 
   Example:
-    console.log(getLongestWord("You are amazing")) // -> amazing
+    console.log(getLongestWord("You are amazing"));
+    // -> amazing
 */
+
