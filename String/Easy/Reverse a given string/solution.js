@@ -27,7 +27,7 @@ function reverseStr(str) {
 function reverseStr(str) {
   let revStr = "";
 
-  for (let char of str) {
+  for (const char of str) {
     revStr = char + revStr;
   }
 
@@ -37,7 +37,8 @@ function reverseStr(str) {
 // Solution 4
 
 const reverseStr = str =>
-  str.split("").reduce((revStr, char) => char + revStr, "");
+  str.split("")
+    .reduce((revStr, char) => char + revStr, "");
 
 // Solution 5
 
