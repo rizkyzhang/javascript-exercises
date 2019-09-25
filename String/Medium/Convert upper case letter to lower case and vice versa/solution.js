@@ -3,33 +3,18 @@
 function swapCase(str) {
   let result = "";
 
-  for (let i = 0; i < str.length; i++) {
-    const letter = str[i];
+  for (const letter of str) {
     const lowerCase = letter.toLowerCase();
     const upperCase = letter.toUpperCase();
 
-    letter === lowerCase ? (result += upperCase) : (result += lowerCase);
+    letter === lowerCase ? result += upperCase
+      : result += lowerCase;
   }
 
   return result;
 }
 
 // Solution 2
-
-function swapCase(str) {
-  let result = "";
-
-  for (const letter of str) {
-    const lowerCase = letter.toLowerCase();
-    const upperCase = letter.toUpperCase();
-
-    letter === lowerCase ? (result += upperCase) : (result += lowerCase);
-  }
-
-  return result;
-}
-
-// Solution 3
 
 function swapCase(str) {
   return str
@@ -42,3 +27,4 @@ function swapCase(str) {
     })
     .join("");
 }
+
