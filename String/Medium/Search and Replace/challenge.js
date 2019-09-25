@@ -9,12 +9,15 @@
     Third argument is what you will be replacing the second argument with (after).
 
     Note:
-    Preserve the case of the first character in the original word when you are replacing it. 
+    Preserve the case of the first character in the original word when you are replacing it.
     For example if you mean to replace the word "Book" with the word "dog", it should be replaced as "Dog".
 
   Examples:
-    console.log(searchAndReplace("Let us go to the store", "store", "mall")); // -> Let us go to the mall
-    console.log(searchAndReplace("He is Sleeping on the couch", "Sleeping", "sitting")); // -> He is Sitting on the couch
+    console.log(searchAndReplace("Let us go to the store", "store", "mall"));
+    // -> Let us go to the mall
+
+    console.log(searchAndReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
+    // -> He is Sitting on the couch
 
   Link:
     https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace
