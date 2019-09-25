@@ -1,7 +1,7 @@
 // Solution 1
 
 function hasSpaces(str) {
-  for (let char of str) {
+  for (const char of str) {
     if (char === " ") {
       return true;
     }
