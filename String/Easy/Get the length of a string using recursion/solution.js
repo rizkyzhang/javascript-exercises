@@ -1,1 +1,3 @@
-const getStrLength = str => !str ? 0 : 1 + getStrLength(str.slice(1));
+function getStrLength(str) {
+  return !str ? 0 : 1 + getStrLength(str.slice(1));
+}
