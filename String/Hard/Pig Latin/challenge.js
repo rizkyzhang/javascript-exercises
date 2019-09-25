@@ -8,13 +8,23 @@
     If a word begins with a vowel you just add "way" to the end.
     Input strings are guaranteed to be English words in all lowercase.
 
-  Examples: 
-    console.log(toPigLatin("california")); // -> aliforniacay
-    console.log(toPigLatin("paragraphs")); // -> aragraphspay
-    console.log(toPigLatin("glove")); // -> oveglay
-    console.log(toPigLatin("algorithm")); // -> algorithmway
-    console.log(toPigLatin("eight")); // -> eightway
+  Examples:
+    console.log(toPigLatin("california"));
+    // -> aliforniacay
+
+    console.log(toPigLatin("paragraphs"));
+    // -> aragraphspay
+
+    console.log(toPigLatin("glove"));
+    // -> oveglay
+
+    console.log(toPigLatin("algorithm"));
+    // -> algorithmway
+
+    console.log(toPigLatin("eight"));
+    // -> eightway
 
   Link:
     https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin
 */
+
