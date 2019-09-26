@@ -21,7 +21,8 @@
     P.S. Hint: n! can be written as n * (n-1)! For instance: 3! = 3*2! = 3*2*1! = 6
 
   Example:
-    console.log(factorial(4)); // => 24
+    console.log(factorial(4));
+    // => 24
 
   Link:
     http://javascript.info/task/factorial
