@@ -1,4 +1,4 @@
-// Solution 1 (Loop)
+// Solution 1
 
 function factorial(n) {
   if (n < 0) return null;
@@ -13,7 +13,7 @@ function factorial(n) {
   return result;
 }
 
-// Solution 2 (Recursion)
+// Solution 2
 
 function factorial(n) {
   if (n < 0) return null;
@@ -22,14 +22,14 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
-// Solutuon 3 (Recursion with memoization)
+// Solution 3
 
 function factorial(n, memo = {}) {
   if (n < 0) return null;
   if (n === 0 || n === 1) return 1;
   if (memo[n]) return memo[n];
 
-  return (memo[n] = n * factorial(n, memo));
+  return memo[n] = n * factorial(n, memo);
 }
 
 // Solution 4
@@ -40,3 +40,4 @@ function factorial(n) {
 
   return [...Array(n + 1).keys()].slice(1).reduce((acc, curr) => acc * curr, 1);
 }
+
