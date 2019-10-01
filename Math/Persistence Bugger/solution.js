@@ -1,3 +1,5 @@
+// Solution 1
+
 function persistence(num) {
   if (num.toString().length === 1) return 0;
 
@@ -19,3 +21,12 @@ function persistence(num) {
 
   return multiplicativePersistence;
 }
+
+// Solution 2
+
+function persistence(num) {
+  return `${num}`.length > 1
+    ? 1 + persistence([...`${num}`].reduce((a, b)) => a * b);
+    : 0;
+}
+
