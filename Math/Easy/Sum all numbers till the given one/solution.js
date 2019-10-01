@@ -1,4 +1,4 @@
-// Solution 1 (Loop)
+// Solution 1
 
 function sumTo(n) {
   let sum = 0;
@@ -10,10 +10,11 @@ function sumTo(n) {
   return sum;
 }
 
-// Solution 2 (Recursion)
+// Solution 2
 
 const sumTo = n => (n === 1 ? 1 : n + sumTo(n - 1));
 
-// Solution 3 (Arithmetic Progression Formula)
+// Solution 3
 
 const sumTo = n => (n * (n + 1)) / 2;
+
