@@ -1,8 +1,8 @@
-// Iterative Solution V1 - Forward - O(n)
+// Solution 1 - O(n)
 
 function fib(n) {
   if (n < 2) return n;
-  
+
   const arr = [0, 1];
 
   for (let i = 2; i <= n; i++) {
@@ -12,14 +12,7 @@ function fib(n) {
   return arr;
 }
 
-// Iterative solution V2 - Forward  - O(n)
-/*
-This method has you work upwards from 0 to n (instead of downwards from n to 0) 
-and store the results in three variables as you go. 
-It makes things faster since you don't have to find 
-fibbonacci(n-1) twice, 
-fibbonacci(n-2) three times, etc.
-*/
+// Solution 2 - O(n)
 
 function fib(n) {
   if (n < 2) return n;
@@ -39,7 +32,7 @@ function fib(n) {
   return arr;
 }
 
-// Iterative solution V3 - Forward - O(n)
+// Solution 3 - O(n)
 
 function fib(n) {
   if (n < 2) return n;
@@ -53,7 +46,7 @@ function fib(n) {
   return b;
 }
 
-// Iterative solution V4 - Backward - O(n)
+// Solution 4 - O(n)
 
 function fib(n) {
   if (n < 2) return n;
@@ -73,7 +66,7 @@ function fib(n) {
   return arr;
 }
 
-// Recursive solution - O(2^n)
+// Solution 5 - O(2^n)
 /* 
 (n = 10 => 7.5ms)
 (n = 20 => 35ms)
@@ -84,7 +77,7 @@ function fib(n) {
 
 const fib = n => (n < 2 ? n : fib(n - 1) + fib(n - 2));
 
-// Recursive solution with memoization - O(2n)
+// Solution 6 - O(2n)
 /* 
 (n = 100 => 1.8ms)
 (n = 1000 => 4.7ms)
@@ -96,3 +89,4 @@ function fib(n, memo = {}) {
 
   return (memo[n] = fib(n - 1, memo) + fib(n - 2, memo));
 }
+
