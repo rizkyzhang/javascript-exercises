@@ -1,34 +1,28 @@
 // Solution 1
 
-function flatten(array, result = []) {
+function flatten(array, flattenedArray = []) {
   for (const element of array) {
     if (Array.isArray(element)) {
-      result.push(...flatten(element));
+      flattenedArray.push(...flatten(element));
     } else {
-      result.push(element);
+      flattenedArray.push(element);
     }
   }
 
-  return result;
+  return flattenedArray;
 }
 
 // Solution 2
 
 function flatten(array) {
-  return Array.isArray(array) ? [].concat(...array.map(flatten)) : array;
-}
-
-// Solution 3
-
-function flatten(array) {
   return array.reduce(
-    (accumulator, element) =>
-      accumulator.concat(Array.isArray(element) ? flatten(element) : element),
+    (acc, element) =>
+      acc.concat(Array.isArray(element) ? flatten(element) : element),
     []
   );
 }
 
-// Solution 4 (Only work for array of numbers)
+// Solution 3 (Only work for array of numbers)
 
 function flatten(array) {
   return array
@@ -37,6 +31,7 @@ function flatten(array) {
     .map(Number);
 }
 
-// Solution 5
+// Solution 4
 
 const flatten = array => array.flat(Infinity);
+
