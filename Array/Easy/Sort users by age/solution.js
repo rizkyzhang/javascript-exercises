@@ -5,3 +5,4 @@ const mary = {name: "Mary", age: 28};
 const users = [john, pete, mary];
 
 const sortByAge = users => users.sort((a, b) => a.age - b.age);
+
