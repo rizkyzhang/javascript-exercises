@@ -8,8 +8,8 @@
   Example:
     const date = new Date(2012, 0, 3);
 
-    console.log(getWeekDay(date));        
-    // -> should output "TU"
+    console.log(getWeekDay(date));
+    // -> TU
 
   Link
     http://javascript.info/task/get-week-day

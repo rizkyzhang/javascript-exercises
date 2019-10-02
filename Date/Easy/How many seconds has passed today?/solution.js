@@ -1,4 +1,4 @@
-// Long solution
+// Solution 1
 
 function getSecondsToday() {
   const now = new Date();
@@ -8,10 +8,11 @@ function getSecondsToday() {
   return Math.round(diff / 1000); // convert ms to s
 }
 
-// Short solution
+// Solution 2
 
 function getSecondsToday() {
   const now = new Date();
 
   return now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
 }
+
