@@ -10,3 +10,4 @@ function mutation(array) {
 
   return true;
 }
+

@@ -1,13 +1,13 @@
 // Solution 1
 
 function getLargestNumberInArray(arrays) {
-  const result = [];
+  const numbers = [];
 
   for (const array of arrays) {
-    result.push(Math.max(...array));
+    numbers.push(Math.max(...array));
   }
 
-  return result;
+  return numbers;
 }
 
 // Solution 2
@@ -15,3 +15,4 @@ function getLargestNumberInArray(arrays) {
 function getLargestNumberInArray(arrays) {
   return arrays.map(array => Math.max(...array));
 }
+

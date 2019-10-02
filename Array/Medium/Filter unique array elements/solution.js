@@ -21,3 +21,4 @@ function filterUniqueElements(array) {
 // Solution 3
 
 const filterUniqueElements = array => [...new Set(array)];
+

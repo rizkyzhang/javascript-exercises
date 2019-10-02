@@ -7,3 +7,4 @@ function dropElements(array, func) {
 
   return [];
 }
+

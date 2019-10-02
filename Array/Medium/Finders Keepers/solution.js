@@ -7,3 +7,4 @@ function getTruthyElement(array, func) {
 
   return undefined;
 }
+
