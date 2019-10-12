@@ -1,6 +1,6 @@
-const john = {name: "John", surname: "Smith", id: 1};
-const pete = {name: "Pete", surname: "Hunt", id: 2};
-const mary = {name: "Mary", surname: "Key", id: 3};
+const john = { name: "John", surname: "Smith", id: 1 };
+const pete = { name: "Pete", surname: "Hunt", id: 2 };
+const mary = { name: "Mary", surname: "Key", id: 3 };
 
 const users = [john, pete, mary];
 
