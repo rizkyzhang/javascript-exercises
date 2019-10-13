@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum all numbers till the given one
 
@@ -13,7 +13,7 @@
     sumTo(4) = 4 + 3 + 2 + 1 = 10
     ...
     sumTo(100) = 100 + 99 + ... + 2 + 1 = 5050
-    
+
     Make 3 solution variants:
 
     Using a for loop.
@@ -23,3 +23,4 @@
   Link:
     http://javascript.info/task/sum-to
 */
+

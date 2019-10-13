@@ -1,3 +1,7 @@
 function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  const range = max - min;
+  const randomNumber = Math.random() * (range + 1) + min;
+
+  return Math.floor(randomNumber);
 }
+

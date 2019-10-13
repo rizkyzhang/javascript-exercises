@@ -12,7 +12,7 @@ function sumTo(n) {
 
 // Solution 2
 
-const sumTo = n => (n === 1 ? 1 : n + sumTo(n - 1));
+const sumTo = n => n === 1 ? 1 : n + sumTo(n - 1);
 
 // Solution 3
 

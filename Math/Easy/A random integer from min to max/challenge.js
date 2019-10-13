@@ -12,3 +12,4 @@
   Link:
     http://javascript.info/task/random-int-min-max
 */
+

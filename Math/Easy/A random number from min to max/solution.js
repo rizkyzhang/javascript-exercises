@@ -1,1 +1,6 @@
-const getRandomNum = (min, max) => Math.random() * (max - min) + min;
+function getRandomNum(min, max) {
+  const range = max - min;
+
+  return Math.random() * range + min;
+}
+

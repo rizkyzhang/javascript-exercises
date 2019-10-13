@@ -7,13 +7,13 @@
     You can assume that all values are integers.
 
   Examples:
-    console.log(invert([1, 2, 3, 4, 5]));
+    console.log(invertValues([1, 2, 3, 4, 5]));
     // -> [-1, -2, -3, -4, -5]
 
-    console.log(invert([1, -2, 3, -4, 5]));
+    console.log(invertValues([1, -2, 3, -4, 5]));
     // -> [-1, 2, -3, 4, -5]
 
-    console.log(invert([]));
+    console.log(invertValues([]));
     // -> []
 
   Link:
