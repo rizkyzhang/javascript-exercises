@@ -1,16 +1,18 @@
-function getPrimeNumsTo(n) {
-  const result = [];
+function getPrimeNums(n) {
+  const primeNumbers = [];
 
   for (let i = 2; i <= n; i++) {
-    if (isPrime(i)) result.push(i);
+    if (isPrime(i)) primeNumbers.push(i);
   }
 
-  return result;
+  return primeNumbers;
 }
 
 function isPrime(n) {
   if (!Number.isInteger(n) || n < 2) return false;
+
   if (n <= 3) return true;
+
   if (n % 2 === 0) return false;
 
   const sqrt = Math.sqrt(n);
@@ -21,3 +23,4 @@ function isPrime(n) {
 
   return true;
 }
+
