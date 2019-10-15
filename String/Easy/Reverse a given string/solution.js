@@ -1,34 +1,34 @@
 // Solution 1
 
 function reverseStr(str) {
-  let revStr = "";
+  let reversedStr = "";
 
   for (let i = 0; i < str.length; i++) {
-    revStr = str[i] + revStr;
+    reversedStr = str[i] + reversedStr;
   }
 
-  return revStr;
+  return reversedStr;
 }
 
 // Solution 2
 
 function reverseStr(str) {
-  let revStr = "";
+  let reversedStr = "";
 
   for (let i = str.length - 1; i >= 0; i--) {
-    revStr = revStr + str[i];
+    reversedStr = reversedStr + str[i];
   }
 
-  return revStr;
+  return reversedStr;
 }
 
 // Solution 3
 
 function reverseStr(str) {
-  let revStr = "";
+  let reversedStr = "";
 
   for (const char of str) {
-    revStr = char + revStr;
+    reversedStr = char + reversedStr;
   }
 
   return revStr;
@@ -37,13 +37,11 @@ function reverseStr(str) {
 // Solution 4
 
 const reverseStr = str =>
-  str.split("")
-    .reduce((revStr, char) => char + revStr, "");
+  str
+    .split("")
+    .reduce((reversedStr, char) => char + reversedStr, "");
 
 // Solution 5
 
-const reverseStr = str =>
-  str
-    .split("")
-    .reverse()
-    .join("");
+const reverseString = string => [...string].reverse().join("");
+
