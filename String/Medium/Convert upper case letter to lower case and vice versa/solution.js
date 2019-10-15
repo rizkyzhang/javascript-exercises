@@ -7,8 +7,7 @@ function swapCase(str) {
     const lowerCase = letter.toLowerCase();
     const upperCase = letter.toUpperCase();
 
-    letter === lowerCase ? result += upperCase
-      : result += lowerCase;
+    letter === lowerCase ? result += upperCase : result += lowerCase;
   }
 
   return result;

@@ -2,7 +2,7 @@
 
 function getLongestWord(sentence) {
   if (typeof sentence !== "string") return null;
-  
+
   const words = sentence.split(" ");
   let longestWordLen = 0;
   let longestWord = "";
@@ -30,3 +30,4 @@ function getLongestWord(sentence) {
 
   return words.sort((a, b) => b.length - a.length)[0];
 }
+
