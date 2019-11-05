@@ -6,7 +6,7 @@ The challenge is categorized depending on what skill you need the most to solve 
 
 All of this challenges came from: 
 - <a href="https://www.codewars.com">Codewars</a>
-- <a href="https://leetcode.com/">Leetcode</a>
+- <a href="https://javascript.info/">javascript.info</a>
 - <a href="https://www.w3resource.com/javascript-exercises/">w3resource</a>
 - Other resources
 
