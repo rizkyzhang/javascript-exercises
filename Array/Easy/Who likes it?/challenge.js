@@ -26,8 +26,8 @@
     console.log(whoLikesIt(["Alex", "Jacob", "Mark", "Max"]));
     // -> Alex, Jacob and 2 others like this
 
-  Notes:
-    For 4 or more names, the number in and 2 others simply increases.
+  Note:
+    For 4 or more names, the number in the "2 others" simply increases.
 
   Link:
     https://www.codewars.com/kata/who-likes-it/javascript
