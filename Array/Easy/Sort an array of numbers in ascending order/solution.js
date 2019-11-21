@@ -1,4 +1,4 @@
-const sortNumAsc = arr => arr.sort((a, b) => a - b);
+const sortNumAsc = array => array.sort((a, b) => a - b);
 
-const sortNumDesc = arr => arr.sort((a, b) => b - a);
+const sortNumDesc = array => array.sort((a, b) => b - a);
 

@@ -8,11 +8,11 @@
     Bonus 2: Create a descending version
 
   Example:
-    const arr = [1, 3, 4, 2];
+    const array = [1, 3, 4, 2];
 
-    sortNumAsc(arr);
+    sortNumAsc(array);
 
-    console.log(arr);
+    console.log(array);
     // -> [1, 2, 3, 4];
 */
 
