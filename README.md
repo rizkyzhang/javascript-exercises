@@ -3,8 +3,6 @@
   <em>A collection of JavaScript challenges to train your skill</em>
 </p>
 
----
-
 ## Table of Contents
 
 - [Description](#description)
@@ -26,6 +24,7 @@ I hope this project can help a lot of people who want to improve their JavaScrip
 ## Resources
 
 - <a href="https://www.codewars.com">Codewars</a>
+- <a href="https://edabit.com">Edabit</a>
 - <a href="https://javascript.info/">javascript.info</a>
 - <a href="https://www.w3resource.com/javascript-exercises/">w3resource</a>
 
