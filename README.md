@@ -1,13 +1,15 @@
 <h1 align="center">JavaScript Challenges</h1>
+<p align="center">
+  <em>A collection of JavaScript challenges to train your skill</em>
+</p>
 
-<h6 align="center">Collection of JavaScript challenges to train your skill</h6>
+The challenges are divided into 5 sections (array, date, math, object and string) 
+and 3 difficulty levels (easy, medium, and hard).
 
-The challenge is categorized depending on what skill you need the most to solve it and the diffculty of it, for example if you want to train your array skill, go to array folder, select the difficulty, and pick your challenge to solve. I really hope this respository can help a lot of people who wish to improve their JavaScript skill.
+I really hope this repository can help a lot of people who wish to improve their JavaScript skill.
 
 All of this challenges came from: 
 - <a href="https://www.codewars.com">Codewars</a>
 - <a href="https://javascript.info/">javascript.info</a>
 - <a href="https://www.w3resource.com/javascript-exercises/">w3resource</a>
 - Other resources
-
-Note: My solution might be different from the official solution of a challenge, my solution is not by any means the best solution, just remember there is many ways to solve a problem.
