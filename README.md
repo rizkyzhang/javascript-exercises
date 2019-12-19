@@ -21,6 +21,41 @@ I hope this project can help a lot of people who want to improve their JavaScrip
 
 ---
 
+## Installation
+
+1. Clone the repo
+
+```bash
+$ git clone https://github.com/rizkyzhang/javascript-challenges.git
+```
+
+2. Install jest globally
+
+```bash
+$ npm install -g jest
+```
+---
+
+## Usage
+
+Each challenge directory contains index.js file and test.js file.
+
+### Running All Tests
+
+```bash
+$ jest
+```
+### Running Tests for Specific Challenge
+To run test for specific challenge simply add its directory path to jest command, e.g:
+
+```bash
+$ jest challenges/<type>/<difficulity>/<challenge-name>
+```
+
+You can also run jest in watch mode by adding `--watch` flag.
+
+---
+
 ## Resources
 
 - <a href="https://www.codewars.com">Codewars</a>
