@@ -1,27 +1,18 @@
 /*
   Description:
-    Create a function that gets an array of objects with property age and gets the average.
+    Given an array of user objects with name and age property, create a function that calculate the average age.
     The formula for the average is (age1 + age2 + ... + ageN) / N.
 
   Example:
-    const john = { name: "John", age: 25 };
-    const pete = { name: "Pete", age: 30 };
-    const mary = { name: "Mary", age: 29 };
+    const users = [
+      { name: "Kenny", age: 21 },
+      { name: "George", age: 24 },
+      { name: "Billy", age: 36 }
+    ];
 
-    const users = [john, pete, mary];
-
-    getAverageAge(users);
-    // => (25 + 30 + 29) / 3 = 28
-
-  Link:
-    https://javascript.info/task/average-age
+    console.log(getAverageAge(users));
+    // => (21 + 24 + 36) / 3 = 27
 */
-
-const john = { name: "John", age: 25 };
-const pete = { name: "Pete", age: 30 };
-const mary = { name: "Mary", age: 29 };
-
-const users = [john, pete, mary];
 
 function getAverageAge(users) {
 
