@@ -27,4 +27,5 @@ const users = [john, pete, mary];
 
 const names = // ... your code //
 
+  module.exports = names;
 
