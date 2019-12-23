@@ -1,31 +1,22 @@
 /*
   Description:
-    You have an array of user objects, each one has user.name.
-    Write the code that converts it into an array of names.
+    Given an array of user objects with name and age property,
+    create a function that return an array of names.
 
   Examples:
-    const john = { name: "John", age: 25 };
-    const pete = { name: "Pete", age: 30 };
-    const mary = { name: "Mary", age: 28 };
+    const users = [
+      { name: "Luis", age: 25},
+      { name: "Jacky", age: 20 },
+      { name: "Carlos", age: 30 }
+    ];
 
-    const users = [john, pete, mary];
-
-    const names = // ... your code //
-
-    console.log(names);
-    // => ["John", "Pete", "Mary"]
-
-  Link:
-    http://javascript.info/task/array-get-names
+    console.log(mapToNames(users));
+    // => ["Luis", "Jacky", "Carlos"]
 */
 
-const john = { name: "John", age: 25 };
-const pete = { name: "Pete", age: 30 };
-const mary = { name: "Mary", age: 28 };
+function mapToNames(users) {
 
-const users = [john, pete, mary];
+}
 
-const names = // ... your code //
-
-  module.exports = names;
+module.exports = mapToNames;
 
