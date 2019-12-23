@@ -5,19 +5,19 @@
     So you can’t simply do a typeof check, because it will return an object.
  
   Examples:
-    isArray("string");
+    console.log(isArray("string"));
     // => false
 
-    isArray(123);
+    console.log(isArray(123));
     // => false
 
-    isArray({});
+    console.log(isArray({}));
     // => false
 
-    isArray([]);
+    console.log(isArray([]));
     // => true
 
-    isArray([1, 2, 3]);
+    console.log(isArray([1, 2, 3]));
     // => true
 
   Link:

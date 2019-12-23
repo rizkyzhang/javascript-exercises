@@ -11,11 +11,6 @@
     // -> [-4, -3, -2, -1]
 */
 
-// function sortNumAsc(array) {
-
-// }
-
-
 function sortNumAsc(array) {
 
 }
