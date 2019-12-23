@@ -1,8 +1,9 @@
 {
   "name": "javascript-challenges",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">JavaScript Challenges</h1>",
+  "description": "JavaScript Challenges",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +17,5 @@
     "url": "https://github.com/rizkyzhang/javascript-challenges/issues"
   },
   "homepage": "https://github.com/rizkyzhang/javascript-challenges#readme",
-  "devDependencies": {
-    "jest": "^24.9.0"
-  }
+  "devDependencies": {}
 }

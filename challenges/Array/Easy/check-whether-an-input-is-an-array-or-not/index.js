@@ -6,19 +6,19 @@
  
   Examples:
     console.log(isArray("string"));
-    // => false
+    // -> false
 
     console.log(isArray(123));
-    // => false
+    // -> false
 
     console.log(isArray({}));
-    // => false
+    // -> false
 
     console.log(isArray([]));
-    // => true
+    // -> true
 
     console.log(isArray([1, 2, 3]));
-    // => true
+    // -> true
 
   Link:
     https://www.w3resource.com/javascript-exercises/javascript-array-exercise-1.php

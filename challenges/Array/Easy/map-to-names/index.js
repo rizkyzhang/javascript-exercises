@@ -11,7 +11,7 @@
     ];
 
     console.log(mapToNames(users));
-    // => ["Luis", "Jacky", "Carlos"]
+    // -> ["Luis", "Jacky", "Carlos"]
 */
 
 function mapToNames(users) {

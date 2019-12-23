@@ -11,7 +11,7 @@
     ];
 
     console.log(getAverageAge(users));
-    // => (21 + 24 + 36) / 3 = 27
+    // -> (21 + 24 + 36) / 3 = 27
 */
 
 function getAverageAge(users) {
