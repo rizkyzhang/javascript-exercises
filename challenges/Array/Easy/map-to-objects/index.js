@@ -1,46 +1,27 @@
 /*
-  Title:
-    Map to objects
-
   Description:
-    You have an array of user objects, each one has name, surname and id.
-    Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
+    Given an array of user objects with name, surname and id property,
+    create a function that return an array of objects with id and fullName property,
+    where fullName is generated from name and surname.
 
-  Examples:
-    const john = { name: "John", surname: "Smith", id: 1 };
-    const pete = { name: "Pete", surname: "Hunt", id: 2 };
-    const mary = { name: "Mary", surname: "Key", id: 3 };
+  Example:
+    const users = [
+      { name: "Eric", surname: "Ming", id: 1 },
+      { name: "James", surname: "Smith", id: 2 },
+      { name: "Carlos", surname: "Ken", id: 3 }
+    ];
 
-    const users = [john, pete, mary];
-
-    const usersMapped = // ... your code ... //
-
-    usersMapped = [
-      { fullName: "John Smith", id: 1 },
-      { fullName: "Pete Hunt", id: 2 },
-      { fullName: "Mary Key", id: 3 }
+    console.log(mapToObjects(users));
+    // -> [
+      { fullName: "Eric Ming", id: 1 },
+      { fullName: "James Smith", id: 2 },
+      { fullName: "Carlos Ken", id: 3 }
     ]
-
-    console.log(usersMapped[0].id);
-    // -> 1
-
-    console.log(usersMapped[0].fullName);
-    // -> John Smith
-
-  Link:
-    http://javascript.info/task/map-objects
 */
 
-const john = { name: "John", surname: "Smith", id: 1 };
-const pete = { name: "Pete", surname: "Hunt", id: 2 };
-const mary = { name: "Mary", surname: "Key", id: 3 };
+function mapToObjects(users) {
 
-const users = [john, pete, mary];
+}
 
-const usersMapped = users.map(user => ({
-  fullname: `${user.name} ${user.surname}`,
-  id: user.id
-}));
-
-module.exports = usersMapped;
+module.exports = mapToObjects;
 
