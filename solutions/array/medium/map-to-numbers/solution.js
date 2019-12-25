@@ -1,6 +1,6 @@
 // Solution 1
 
-function getLargestNumberInArray(arrays) {
+function mapToNumbers(arrays) {
   const numbers = [];
 
   for (const array of arrays) {
@@ -12,7 +12,7 @@ function getLargestNumberInArray(arrays) {
 
 // Solution 2
 
-function getLargestNumberInArray(arrays) {
+function mapToNumbers(arrays) {
   return arrays.map(array => Math.max(...array));
 }
 
