@@ -1,10 +1,7 @@
 /*
-  Title:
-    Drop it
-
   Description:
-    Given an array, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it.
-    Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array.
+    Given an array and a function func, create a function that iterate through the array and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it.
+    Then return the rest of the array once the condition is satisfied, otherwise, return an empty array.
 
   Examples:
     console.log(dropElements([1, 2, 3, 4], function(n) { return n >= 3; }));
@@ -24,8 +21,18 @@
 
     console.log(dropElements([1, 2, 3, 9, 2], function(n) { return n > 2; }));
     // -> [3, 9, 2]
-
-  Link:
-    https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/drop-it
 */
+
+function dropElements(array, func) {
+
+  for (const element of array) {
+    if (func(element)) {
+      return array.slice(array.indexOf(element));
+    }
+  }
+
+  return [];
+}
+
+module.exports = dropElements;
 
