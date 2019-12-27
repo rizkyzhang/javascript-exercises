@@ -1,11 +1,28 @@
-// Fisher-Yates Shuffle Algorithm
-
-function shuffle(array) {
+function shuffleArray(array) {
+  const arrayClone = JSON.parse(JSON.stringify(array));
   const lastIndex = array.length - 1;
 
   for (let i = lastIndex; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+
+    let temp = arrayClone[i];
+    arrayClone[i] = arrayClone[j];
+    arrayClone[j] = temp;
   }
+
+  return arrayClone;
+}
+
+function shuffleArray(array) {
+  const arrayClone = JSON.parse(JSON.stringify(array));
+  const lastIndex = array.length - 1;
+
+  for (let i = lastIndex; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [arrayClone[i], arrayClone[j]] = [arrayClone[j], arrayClone[i]];
+  }
+
+  return arrayClone;
 }
 
