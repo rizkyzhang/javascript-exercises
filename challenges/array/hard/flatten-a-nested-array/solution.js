@@ -22,16 +22,7 @@ function flatten(array) {
   );
 }
 
-// Solution 3 (Only work for array of numbers)
-
-function flatten(array) {
-  return array
-    .join()
-    .split(",")
-    .map(Number);
-}
-
-// Solution 4
+// Solution 3
 
 const flatten = array => array.flat(Infinity);
 
