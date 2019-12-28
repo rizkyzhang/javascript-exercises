@@ -5,3 +5,4 @@ function getSecondsToTomorrow() {
 
   return Math.round(diff / 1000)
 }
+

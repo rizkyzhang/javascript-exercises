@@ -3,3 +3,4 @@ function getLastDayOfMonth(year, month) {
 
   return date.getDate();
 }
+
