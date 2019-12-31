@@ -1,10 +1,7 @@
 /*
-  Title:
-    Persistent Bugger
-
   Description:
-    Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence,
-    which is the number of times you must multiply the digits in num until you reach a single digit.
+    Given a positive integer n, create a function that calculates its multiplicative persistence,
+    which is the number of times you must multiply the digits in n until you reach a single digit.
 
   Examples:
     console.log(persistence(39));
@@ -18,8 +15,11 @@
     console.log(persistence(4));
     // -> 0
     // -> because 4 is already a one-digit number
-
-  Link:
-    https://www.codewars.com/kata/persistent-bugger/train/javascript
 */
+
+function persistence(n) {
+
+}
+
+module.exports = persistence;
 
