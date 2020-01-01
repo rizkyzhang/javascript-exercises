@@ -1,4 +1,4 @@
-function getRandomInt(min, max) {
+function generateRandomInteger(min, max) {
   const range = max - min;
   const randomNumber = Math.random() * (range + 1) + min;
 
