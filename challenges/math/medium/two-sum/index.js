@@ -1,6 +1,6 @@
 /*
   Description:
-    Given an array of integers and a target sum, get all pairs that add up to the target sum. 
+    Given an array of integers and a target sum, get all integer pairs that add up to the target sum.
 
   Examples:
     console.log(twoSum([7, 0, -4, 5, 2, 3], 5)));
