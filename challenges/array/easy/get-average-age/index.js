@@ -1,6 +1,6 @@
 /*
   Description:
-    Given an array of user objects with name and age property, create a function that calculate the average age.
+    Given an array of user objects with name and age property, calculate the average age.
     The formula for the average is (age1 + age2 + ... + ageN) / N.
 
   Example:
@@ -10,13 +10,13 @@
       { name: "Billy", age: 36 }
     ];
 
-    console.log(getAverageAge(users));
+    console.log(calculateAverageAge(users));
     // -> (21 + 24 + 36) / 3 = 27
 */
 
-function getAverageAge(users) {
+function calculateAverageAge(users) {
 
 }
 
-module.exports = getAverageAge;
+module.exports = calculateAverageAge;
 
