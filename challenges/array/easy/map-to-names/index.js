@@ -1,7 +1,6 @@
 /*
   Description:
-    Given an array of user objects with name and age property,
-    create a function that return an array of names.
+    Given an array of user objects with name and age property, create an array of names from it.
 
   Examples:
     const users = [
