@@ -1,39 +1,41 @@
-const getAverageAge = require("./index");
+const calculateAverageAge = require("./index");
 
-describe("getAverageAge function", () => {
+describe("calculateAverageAge function", () => {
   test("should exists", () => {
-    expect(getAverageAge).toBeDefined();
-    expect(typeof getAverageAge).toEqual("function");
+    expect(calculateAverageAge).toBeDefined();
+    expect(typeof calculateAverageAge).toEqual("function");
   });
 
-  test("should return 27", () => {
+  test("should correctly calculate the average age when passed an array of 3 user objects", () => {
     const users = [
       { name: "Kenny", age: 21 },
       { name: "George", age: 24 },
       { name: "Billy", age: 36 }
     ];
 
-    expect(getAverageAge(users)).toEqual(27);
+    expect(calculateAverageAge(users)).toEqual(27);
   });
 
-  test("should return 31", () => {
+  test("should correctly calculate the average age when passed an array of 4 user objects", () => {
     const users = [
       { name: "Kenny", age: 38 },
       { name: "George", age: 26 },
-      { name: "Billy", age: 29 }
+      { name: "Billy", age: 28 },
+      { name: "Carlos", age: 40 }
     ];
 
-    expect(getAverageAge(users)).toEqual(31);
+    expect(calculateAverageAge(users)).toEqual(33);
   });
 
-  test("should return 31", () => {
+  test("should correctly calculate the average age when passed an array of 5 user objects", () => {
     const users = [
       { name: "Kenny", age: 42 },
       { name: "George", age: 30 },
-      { name: "Billy", age: 18 }
+      { name: "Billy", age: 18 },
+      { name: "Carlos", age: 35 },
+      { name: "Luis", age: 25 }
     ];
 
-    expect(getAverageAge(users)).toEqual(30);
+    expect(calculateAverageAge(users)).toEqual(30);
   });
 });
-
