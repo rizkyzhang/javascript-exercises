@@ -1,6 +1,6 @@
 /*
   Description:
-    Create a function that sort an array of numbers in ascending order.
+    Given an array of numbers, sort it in ascending order.
     Don't modify the original array, instead return a new array.
 
   Examples:
