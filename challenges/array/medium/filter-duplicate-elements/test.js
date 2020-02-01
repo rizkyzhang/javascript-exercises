@@ -1,12 +1,12 @@
-const filterDuplicateElements = require("./index");
+const removeDuplicates = require("./index");
 
 describe("filterDuplicateElements function", () => {
   test("should exists", () => {
-    expect(filterDuplicateElements).toBeDefined();
-    expect(typeof filterDuplicateElements).toEqual("function");
+    expect(removeDuplicates).toBeDefined();
+    expect(typeof removeDuplicates).toEqual("function");
   });
 
-  test("should return a filtered array", () => {
+  test("should return a filtered array when passed an array", () => {
     const array = [
       25,
       "Andy",
@@ -37,7 +37,7 @@ describe("filterDuplicateElements function", () => {
       false
     ];
 
-    expect(filterDuplicateElements(array)).toEqual(filteredArray);
+    expect(removeDuplicates(array)).toEqual(filteredArray);
   });
 });
 

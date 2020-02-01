@@ -1,6 +1,6 @@
 /*
   Description:
-    Given an array, create a function that return an array with unique elements.
+    Given an array, remove duplicate elements from it.
 
   Example:
     const strings = [
@@ -15,13 +15,13 @@
       "Billy"
     ];
 
-    console.log(filterDuplicateElements(strings));
+    console.log(removeDuplicates(strings));
     // -> ["James", "Carlos", "Billy"]
 */
 
-function filterDuplicateElements(array) {
+function removeDuplicates(array) {
 
 }
 
-module.exports = filterDuplicateElements;
+module.exports = removeDuplicates;
 
