@@ -1,8 +1,8 @@
 /*
   Description:
-    Given two or more arrays, create a function that merge it without duplicate elements.
+    Given two or more arrays, merge it without any duplicate elements.
 
-  Example:
+  Examples:
     console.log(mergeArrays([1, 2, 3, 4, 5], [6, 2, 10, 4, 3]));
     // -> [1, 2, 3, 4, 5, 6, 10]
 
@@ -10,7 +10,7 @@
     // -> ["a", "b", "c", "d", "e", "f", "g", "h"]
 */
 
-function mergeArrays(...arrays) {
+function mergeArrays(arrays) {
 
 }
 
