@@ -1,6 +1,6 @@
 /*
   Description:
-    Given an array of arrays, create a function to flatten the nested array.
+    Given an array of arrays, flatten the nested array.
     You must account for varying levels of nesting.
 
   Examples:
@@ -12,7 +12,7 @@
 */
 
 function flatten(array) {
-  return array.flat(Infinity);
+
 }
 
 module.exports = flatten;
