@@ -1,3 +1,5 @@
+// Solution 1
+
 function shuffleArray(array) {
   const arrayClone = JSON.parse(JSON.stringify(array));
   const lastIndex = array.length - 1;
@@ -12,6 +14,8 @@ function shuffleArray(array) {
 
   return arrayClone;
 }
+
+// Solution 2
 
 function shuffleArray(array) {
   const arrayClone = JSON.parse(JSON.stringify(array));
