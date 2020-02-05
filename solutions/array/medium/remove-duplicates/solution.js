@@ -1,6 +1,6 @@
 // Solution 1
 
-function filterDuplicateElements(array) {
+function removeDuplicates(array) {
   const filteredArray = [];
 
   for (const element of array) {
@@ -14,11 +14,9 @@ function filterDuplicateElements(array) {
 
 // Solution 2
 
-function filterDuplicateElements(array) {
-  return array.filter((element, index) => array.indexOf(element) === index);
-}
+const removeDuplicates = array => array.filter((element, index) => array.indexOf(element) === index);
 
 // Solution 3
 
-const filterDuplicateElements = array => [...new Set(array)];
+const removeDuplicates = array => [...new Set(array)];
 
