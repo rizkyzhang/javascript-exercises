@@ -1,6 +1,6 @@
 /*
   Description:
-    Given two integers, year (4 digits year) and month (0 - 11), create a function that gets the last day of month.
+    Given two integers, year (4 digits year) and month (0 - 11), get the last day of month.
     Sometimes it is 30th, 31st or even 28/29th for February.
 
   Examples:
