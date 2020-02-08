@@ -1,6 +1,6 @@
 /*
   Description:
-    Given a positive integer n, create a function that calculate the factorial of it.
+    Given a positive integer n, calculate the factorial of it.
 
   Examples:
     console.log(factorial(1));
