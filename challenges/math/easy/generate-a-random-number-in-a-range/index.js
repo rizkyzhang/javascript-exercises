@@ -1,6 +1,6 @@
 /*
   Description:
-    Given two integers, min and max, create a function that generates a random floating-point number from min to max (not including max).
+    Given two integers, min and max, generate a random number from min to max.
 
   Example:
     console.log(generateRandomNumber(6, 20));
