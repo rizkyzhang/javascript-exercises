@@ -1,6 +1,6 @@
 /*
   Description:
-    Given an integer n, create a function that gets the prime factors of a number.
+    Given an integer n, calculate its prime factors.
 
   Examples:
     console.log(primeFactors(100));
