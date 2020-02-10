@@ -1,6 +1,6 @@
 /*
   Description:
-    Given a positive integer n, create a function that calculates its multiplicative persistence,
+    Given a positive integer n, calculate its multiplicative persistence,
     which is the number of times you must multiply the digits in n until you reach a single digit.
 
   Examples:
