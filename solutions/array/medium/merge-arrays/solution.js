@@ -7,14 +7,10 @@ function mergeArrays(...arrays) {
     mergedArray = [...mergedArray, ...array];
   }
 
-  return mergedArray.filter((element, index) => mergedArray.indexOf(element) === index);
+  return mergedArray;
 }
 
 // Solution 2
 
-function mergeArrays(...arrays) {
-  return arrays
-    .reduce((prevArray, currArray) => prevArray.concat(currArray), [])
-    .filter((element, index, array) => array.indexOf(element) === index);
-}
+const mergeArrays = (...arrays) => arrays.reduce((prevArray, currArray) => prevArray.concat(currArray), []);
 
