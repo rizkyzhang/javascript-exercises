@@ -15,8 +15,13 @@
       "Billy"
     ];
 
+    const numbers = [0, 0, 4, 8, 2, 7, 2, 2];
+
     console.log(removeDuplicates(strings));
     // -> ["James", "Carlos", "Billy"]
+
+    console.log(removeDuplicates(numbers));
+    // -> [0, 4, 8, 2, 7];
 */
 
 function removeDuplicates(array) {
