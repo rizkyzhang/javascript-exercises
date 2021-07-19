@@ -1,4 +1,7 @@
 /*
+  Title:
+    Average age
+
   Description:
     Given an array of user objects with name and age property, calculate the average age.
     The formula for the average is (age1 + age2 + ... + ageN) / N.
@@ -17,6 +20,4 @@
 function calculateAverageAge(users) {
 
 }
-
-module.exports = calculateAverageAge;
 

@@ -1,4 +1,7 @@
 /*
+  Title:
+    Map to names
+
   Description:
     Given an array of user objects with name and age property, create an array of names from it.
 
@@ -16,6 +19,4 @@
 function mapToNames(users) {
 
 }
-
-module.exports = mapToNames;
 

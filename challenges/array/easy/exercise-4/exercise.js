@@ -1,4 +1,7 @@
 /*
+  Title:
+    Sort an array of numbers
+ 
   Description:
     Given an array of numbers, sort it in ascending order.
     Don't modify the original array, instead return a new array.
@@ -14,6 +17,4 @@
 function sortNumAsc(array) {
 
 }
-
-module.exports = sortNumAsc;
 

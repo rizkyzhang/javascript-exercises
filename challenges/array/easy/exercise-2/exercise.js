@@ -1,4 +1,7 @@
 /*
+  Title: 
+    isArray
+
   Description:
     Check whether input is an array or not.
     In JavaScript, array are not a true array, they are actually an object.
@@ -24,6 +27,4 @@
 function isArray(dataType) {
 
 }
-
-module.exports = isArray;
 
