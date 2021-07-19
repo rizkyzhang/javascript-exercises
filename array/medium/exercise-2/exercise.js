@@ -1,4 +1,7 @@
 /*
+  Title:
+    Merge arrays
+
   Description:
     Given two or more arrays, merge it into one array.
 
@@ -13,6 +16,4 @@
 function mergeArrays(arrays) {
 
 }
-
-module.exports = mergeArrays;
 

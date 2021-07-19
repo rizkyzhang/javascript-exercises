@@ -1,4 +1,7 @@
 /*
+  Title:
+    Drop elements
+ 
   Description:
     Given an array and a function func, loop through the array and remove each element starting from the first element until the function returns true when the looped element is passed through it.
     Then return the rest of the array, otherwise, return an empty array.
@@ -24,8 +27,6 @@
 */
 
 function dropElements(array, func) {
-
+  
 }
-
-module.exports = dropElements;
 
